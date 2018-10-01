@@ -60,8 +60,8 @@ def dennis_ritchies_language
         }
      }
      
-    lang = programmer_hash[:dennis_ritchie][:languages].each {|x| x}
-   lang.join(",")
+  lang = programmer_hash[:dennis_ritchie][:languages].each {|x| x}
+  lang.join(",")
    
 end
 
@@ -71,6 +71,7 @@ def adding_matz
 #   :known_for => "Ruby",
 #    :languages => ["LISP", "C"]
 # }
+programmer_hash[:yukihiro_matsumoto] = {:known_for => "Ruby", :languages => ["LISP", "c"]
 
 	programmer_hash = 
  		{
