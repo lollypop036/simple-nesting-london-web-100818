@@ -60,7 +60,7 @@ def dennis_ritchies_language
         }
      }
      
-     programmer_hash[:dennis_ritchie][:languages].select {|x| puts x}
+     programmer_hash[:dennis_ritchie][:languages].each {|x| x.join}
    
     
 end
