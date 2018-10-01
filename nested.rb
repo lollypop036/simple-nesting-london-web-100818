@@ -60,7 +60,7 @@ def dennis_ritchies_language
         }
      }
      
-    lang = programmer_hash[:dennis_ritchie][:languages].each.join {|x| x}
+    lang = programmer_hash[:dennis_ritchie][:languages].each {|x| x}
    lang.join(" ")
    
 end
