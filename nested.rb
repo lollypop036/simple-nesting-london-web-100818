@@ -60,9 +60,9 @@ def dennis_ritchies_language
         }
      }
      
-     programmer_hash[:dennis_ritchie][:languages].each.join(" ") {|x| x.}
+    lang = programmer_hash[:dennis_ritchie][:languages].each.join {|x| x}
+   lang.join
    
-    
 end
 
 def adding_matz
